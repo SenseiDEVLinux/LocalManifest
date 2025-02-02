@@ -7,9 +7,9 @@
           clone-depth="1" /> 
 
     <!-- Sync trees -->
-    <project path="device/xiaomi/lavender" name="maximka300/device_xiaomi_lavender_14" remote="all" revision="LOS" />
-    <project path="vendor/xiaomi/lavender" name="maximka300/vendor_xiaomi_lavender_14" remote="all" revision="LOS" />
-    <project path="kernel/xiaomi/lavender" name="maximka300/kernel_xiaomi_lavender_419" remote="all" revision="android-4.19-stable" />
+    <project path="device/xiaomi/lavender" name="SenseiDEVLinux/device_xiaomi_lavender_14" remote="all" revision="LOS" />
+    <project path="vendor/xiaomi/lavender" name="SenseiDEVLinux/vendor_xiaomi_lavender_14" remote="all" revision="LOS" />
+    <project path="kernel/xiaomi/lavender" name="SenseiDEVLinux/kernel_xiaomi_lavender_419" remote="all" revision="android-4.19-stable" />
     
     <!-- HALs -->
     <remove-project name="LineageOS/android_hardware_qcom_audio" />

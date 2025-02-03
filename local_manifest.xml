@@ -18,7 +18,6 @@
     <project path="hardware/qcom-caf/msm8998/media" name="Lavender-LineageOS/hardware_qcom-caf_sdm660_media" remote="all" revision="lineage-21.0" />
     <remove-project name="LineageOS/android_hardware_qcom_display" />
     <project path="hardware/qcom-caf/msm8998/display" name="Lavender-LineageOS/hardware_qcom-caf_sdm660_display" remote="all" revision="lineage-21.0" />
-    <remove-project name="LineageOS/android_hardware_xiaomi" />
     <project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" remote="all" revision="lineage-21" />
 
     <!-- Extra -->

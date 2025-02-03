@@ -19,7 +19,4 @@
     <remove-project name="LineageOS/android_hardware_qcom_display" />
     <project path="hardware/qcom-caf/msm8998/display" name="Lavender-LineageOS/hardware_qcom-caf_sdm660_display" remote="all" revision="lineage-21.0" />
     <project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" remote="all" revision="lineage-21" />
-
-    <!-- Extra -->
-    <project path="vendor/motorola-dolby" name="userariii/vendor_motorola-dolby" remote="all" revision="v1.2" />
 </manifest>

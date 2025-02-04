@@ -2,25 +2,34 @@
 <manifest>
 
      <!-- Remotes -->
-    <remote name="all"
-          fetch="https://github.com/"
+    <remote name="SenseiDEVLinux"
+          fetch="https://github.com/SenseiDEVLinux"
+          clone-depth="1" />
+     <remote name="Lavender-LineageOS"
+          fetch="https://github.com/Lavender-LineageOS"
+          clone-depth="1" />
+     <remote name="LineageOS"
+          fetch="https://github.com/LineageOS"
+          clone-depth="1" />
+     <remote name="userariii"
+          fetch="https://github.com/userariii"
           clone-depth="1" /> 
 
     <!-- Sync trees -->
-    <project path="device/xiaomi/lavender" name="SenseiDEVLinux/device_xiaomi_lavender_14" remote="all" revision="LOS" />
-    <project path="vendor/xiaomi/lavender" name="SenseiDEVLinux/vendor_xiaomi_lavender_14" remote="all" revision="LOS" />
-    <project path="kernel/xiaomi/lavender" name="SenseiDEVLinux/kernel_xiaomi_lavender_419" remote="all" revision="android-4.19-stable" />
+    <project path="device/xiaomi/lavender" name="device_xiaomi_lavender_14" remote="SenseiDEVLinux" revision="LOS" />
+    <project path="vendor/xiaomi/lavender" name="vendor_xiaomi_lavender_14" remote="SenseiDEVLinux" revision="LOS" />
+    <project path="kernel/xiaomi/lavender" name="kernel_xiaomi_lavender_419" remote="SenseiDEVLinux" revision="android-4.19-stable" />
     
     <!-- HALs -->
     <remove-project name="LineageOS/android_hardware_qcom_audio" />
-    <project path="hardware/qcom-caf/msm8998/audio" name="Lavender-LineageOS/hardware_qcom-caf_sdm660_audio" remote="all" revision="lineage-21.0" />
+    <project path="hardware/qcom-caf/msm8998/audio" name="hardware_qcom-caf_sdm660_audio" remote="Lavender-LineageOS" revision="lineage-21.0" />
     <remove-project name="LineageOS/android_hardware_qcom_media" />
-    <project path="hardware/qcom-caf/msm8998/media" name="Lavender-LineageOS/hardware_qcom-caf_sdm660_media" remote="all" revision="lineage-21.0" />
+    <project path="hardware/qcom-caf/msm8998/media" name="hardware_qcom-caf_sdm660_media" remote="Lavender-LineageOS" revision="lineage-21.0" />
     <remove-project name="LineageOS/android_hardware_qcom_display" />
-    <project path="hardware/qcom-caf/msm8998/display" name="Lavender-LineageOS/hardware_qcom-caf_sdm660_display" remote="all" revision="lineage-21.0" />
-    <project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" remote="all" revision="lineage-21" />
+    <project path="hardware/qcom-caf/msm8998/display" name="hardware_qcom-caf_sdm660_display" remote="Lavender-LineageOS" revision="lineage-21.0" />
+    <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="LineageOS" revision="lineage-21" />
 
 <!-- Extra -->
-    <project path="vendor/motorola-dolby" name="userariii/vendor_motorola-dolby" remote="all" revision="v1.2" />
+    <project path="vendor/motorola-dolby" name="vendor_motorola-dolby" remote="userariii" revision="v1.2" />
 
 </manifest>

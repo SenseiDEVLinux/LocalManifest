@@ -16,8 +16,8 @@
           clone-depth="1" /> 
 
     <!-- Sync trees -->
-    <project path="device/xiaomi/lavender" name="device_xiaomi_lavender_14" remote="SenseiDEVLinux" revision="los21" />
-    <project path="vendor/xiaomi/lavender" name="vendor_xiaomi_lavender_14" remote="SenseiDEVLinux" revision="LOS" />
+    <project path="device/xiaomi/lavender" name="device_xiaomi_lavender" remote="SenseiDEVLinux" revision="los21" />
+    <project path="vendor/xiaomi/lavender" name="vendor_xiaomi_lavender" remote="SenseiDEVLinux" revision="lineage-21.0" />
     <project path="kernel/xiaomi/lavender" name="kernel_xiaomi_lavender_419" remote="SenseiDEVLinux" revision="android-4.19-stable" />
     
     <!-- HALs -->

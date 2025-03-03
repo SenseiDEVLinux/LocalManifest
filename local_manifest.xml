@@ -2,34 +2,22 @@
 <manifest>
 
      <!-- Remotes -->
-    <remote name="SenseiDEVLinux"
-          fetch="https://github.com/SenseiDEVLinux"
+    <remote name="royweisfeld"
+          fetch="https://github.com/royweisfeld"
           clone-depth="1" />
-     <remote name="Lavender-LineageOS"
-          fetch="https://github.com/Lavender-LineageOS"
+     <remote name="GarnetTrees"
+          fetch="https://github.com/GarnetTrees"
           clone-depth="1" />
-     <remote name="LineageOS"
-          fetch="https://github.com/LineageOS"
-          clone-depth="1" />
-     <remote name="userariii"
-          fetch="https://github.com/userariii"
-          clone-depth="1" /> 
 
     <!-- Sync trees -->
-    <project path="device/xiaomi/lavender" name="device_xiaomi_lavender" remote="SenseiDEVLinux" revision="los21" />
-    <project path="vendor/xiaomi/lavender" name="vendor_xiaomi_lavender" remote="SenseiDEVLinux" revision="lineage-21.0" />
-    <project path="kernel/xiaomi/lavender" name="kernel_xiaomi_lavender_419" remote="SenseiDEVLinux" revision="android-4.19-stable" />
+    <project path="device/xiaomi/garnet" name="android_device_xiaomi_garnet" remote="GarnetTrees" revision="14.0" />
+    <project path="vendor/xiaomi/garnet" name="android_vendor_xiaomi_garnet" remote="GarnetTrees" revision="14.0" />
+    <project path="device/xiaomi/garnet-prebuilt" name="android_device_xiaomi_garnet-prebuilt" remote="GarnetTrees" revision="udc" />
     
     <!-- HALs -->
-    <remove-project name="LineageOS/android_hardware_qcom_audio" />
-    <project path="hardware/qcom-caf/msm8998/audio" name="hardware_qcom-caf_sdm660_audio" remote="Lavender-LineageOS" revision="lineage-21.0" />
-    <remove-project name="LineageOS/android_hardware_qcom_media" />
-    <project path="hardware/qcom-caf/msm8998/media" name="hardware_qcom-caf_sdm660_media" remote="Lavender-LineageOS" revision="lineage-21.0" />
-    <remove-project name="LineageOS/android_hardware_qcom_display" />
-    <project path="hardware/qcom-caf/msm8998/display" name="hardware_qcom-caf_sdm660_display" remote="Lavender-LineageOS" revision="lineage-21.0" />
-    <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="LineageOS" revision="lineage-21" />
+    <project name="android_hardware_xiaomi" path="hardware/xiaomi" remote="royweisfeld" revision="14.0" />
 
-<!-- Extra -->
-    <project path="vendor/motorola-dolby" name="vendor_motorola-dolby" remote="userariii" revision="v1.2" />
+    <!-- Extra -->
+    <project name="proprietary_vendor_xiaomi_garnet-miuicamera" path="vendor/xiaomi/garnet-miuicamera" remote="royweisfeld" revision="lineage-21" />
 
 </manifest>

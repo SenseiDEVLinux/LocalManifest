@@ -10,14 +10,15 @@
           clone-depth="1" />
 
     <!-- Sync trees -->
-    <project path="device/xiaomi/garnet" name="android_device_xiaomi_garnet" remote="GarnetTrees" revision="14.0" />
-    <project path="vendor/xiaomi/garnet" name="android_vendor_xiaomi_garnet" remote="GarnetTrees" revision="14.0" />
+    <project path="device/xiaomi/garnet" name="android_device_xiaomi_garnet_14" remote="GarnetTrees" revision="LOS21" />
+    <project path="vendor/xiaomi/garnet" name="android_vendor_xiaomi_garnet_14" remote="GarnetTrees" revision="LOS21" />
     <project path="device/xiaomi/garnet-kernel" name="android_device_xiaomi_garnet-prebuilt" remote="GarnetTrees" revision="udc" />
     
     <!-- HALs -->
-    <project name="android_hardware_xiaomi" path="hardware/xiaomi" remote="royweisfeld" revision="14.0" />
+    <project name="android_hardware_xiaomi" path="hardware/xiaomi" remote="GarnetTrees" revision="LOS21" />
 
     <!-- Extra -->
     <project name="proprietary_vendor_xiaomi_garnet-miuicamera" path="vendor/xiaomi/garnet-miuicamera" remote="royweisfeld" revision="lineage-21" />
-
+    <project name="packages_apps_ViPER4AndroidFX" path="packages/apps/ViPER4AndroidFX" remote="GarnetTrees" revision="v4a" />
+     
 </manifest>

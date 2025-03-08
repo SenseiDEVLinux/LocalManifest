@@ -21,7 +21,6 @@
     <project name="android_hardware_xiaomi_garnet" path="hardware/xiaomi" remote="GarnetTrees" revision="lineage-22.1" />
 
     <!-- Extra -->
-    <project name="device_xiaomi_miuicamera-garnet" path="device/xiaomi/miuicamera-garnet" remote="royweisfeld" revision="lineage-22.1" />
     <project name="packages_apps_ViPER4AndroidFX" path="packages/apps/ViPER4AndroidFX" remote="GarnetTrees" revision="v4a" />
      
 </manifest>

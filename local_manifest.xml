@@ -5,20 +5,23 @@
     <remote name="royweisfeld"
           fetch="https://github.com/royweisfeld"
           clone-depth="1" />
+     <remote name="SenseiDEVLinux"
+          fetch="https://github.com/SenseiDEVLinux"
+          clone-depth="1" />
      <remote name="GarnetTrees"
           fetch="https://github.com/GarnetTrees"
           clone-depth="1" />
 
     <!-- Sync trees -->
-    <project path="device/xiaomi/garnet" name="android_device_xiaomi_garnet_14" remote="GarnetTrees" revision="LOS21" />
-    <project path="vendor/xiaomi/garnet" name="android_vendor_xiaomi_garnet_14" remote="GarnetTrees" revision="LOS21" />
-    <project path="device/xiaomi/garnet-kernel" name="android_device_xiaomi_garnet-prebuilt" remote="royweisfeld" revision="udc" />
+    <project path="device/xiaomi/garnet" name="android_device_xiaomi_garnet_15" remote="SenseiDEVLinux" revision="15.0" />
+    <project path="vendor/xiaomi/garnet" name="android_vendor_xiaomi_garnet_15" remote="SenseiDEVLinux" revision="15.0" />
+    <project path="device/xiaomi/garnet-kernel" name="android_xiaomi_kernel_garnet_15" remote="SenseiDEVLinux" revision="15.0" />
     
     <!-- HALs -->
-    <project name="android_hardware_xiaomi" path="hardware/xiaomi" remote="GarnetTrees" revision="LOS21" />
+    <project name="android_hardware_xiaomi_garnet" path="hardware/xiaomi" remote="GarnetTrees" revision="lineage-22.1" />
 
     <!-- Extra -->
-    <project name="proprietary_vendor_xiaomi_garnet-miuicamera" path="vendor/xiaomi/garnet-miuicamera" remote="royweisfeld" revision="lineage-21" />
+    <project name="device_xiaomi_miuicamera-garnet" path="device/xiaomi/miuicamera-garnet" remote="royweisfeld" revision="lineage-22.1" />
     <project name="packages_apps_ViPER4AndroidFX" path="packages/apps/ViPER4AndroidFX" remote="GarnetTrees" revision="v4a" />
      
 </manifest>

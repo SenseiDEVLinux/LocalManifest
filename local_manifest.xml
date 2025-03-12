@@ -24,6 +24,9 @@
     <project name="android_hardware_xiaomi" path="hardware/xiaomi" remote="LineageOS" revision="lineage-22.1" />
     <remove-project name="LineageOS/android_vendor_qcom_opensource_agm" />
     <project name="android_vendor_qcom_opensource_agm" path="hardware/qcom-caf/sm8450/audio/agm" remote="SenseiDEVLinux" revision="lineage-22.1-caf-sm8450" />
+    <remove-project name="LineageOS/android_vendor_qcom_opensource_audioreach-graphservices" />
+    <project name="android_vendor_qcom_opensource_audioreach-graphservices" path="hardware/qcom-caf/sm8450/audio/graphservices" remote="SenseiDEVLinux" revision="lineage-22.1-caf-sm8450" />
+     
      
     <!-- Extra -->
     <project name="packages_apps_ViPER4AndroidFX" path="packages/apps/ViPER4AndroidFX" remote="GarnetTrees" revision="v4a" />

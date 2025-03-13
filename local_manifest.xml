@@ -37,5 +37,7 @@
      
     <!-- Extra -->
     <project name="packages_apps_ViPER4AndroidFX" path="packages/apps/ViPER4AndroidFX" remote="GarnetTrees" revision="v4a" />
+     <remove-project name="ProjectSakura/vendor_sakura" />
+    <project name="vendor_sacura" path="vendor/lineage" remote="SenseiDEVLinux" revision="15" />
      
 </manifest>

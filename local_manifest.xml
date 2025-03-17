@@ -41,7 +41,9 @@
     <project name="android_hardware_qcom-caf_common" path="hardware/qcom-caf/common" remote="SenseiDEVLinux" revision="lineage-22.1" />
     <remove-project name="LineageOS/android_hardware_qcom_display" />
     <project name="hardware_qcom-caf_sm8450_display" path="hardware/qcom-caf/sm8450/display" remote="MySelly" revision="lineage-22.1" />
-
+    <remove-project name="LineageOS/android_hardware_qcom_audio-ar" />
+     <project path="hardware/qcom-caf/sm8450/audio/primary-hal" name="android_hardware_qcom_audio-ar" remote="LineageOS" revision="lineage-22.1-caf-sm8450" />
+     
     <!-- Extra -->
     <project name="packages_apps_ViPER4AndroidFX" path="packages/apps/ViPER4AndroidFX" remote="GarnetTrees" revision="v4a" />
      

@@ -37,9 +37,6 @@ r.       <remote name="crdroidandroid"
     <project name="android_vendor_qcom_opensource_audioreach-graphservices" path="hardware/qcom-caf/sm8450/audio/graphservices" remote="DqrKnzx" revision="lineage-22.1-caf-sm8450" />
     <remove-project name="LineageOS/android_vendor_qcom_opensource_arpal-lx" />
     <project name="android_vendor_qcom_opensource_arpal-lx" path="hardware/qcom-caf/sm8450/audio/pal" remote="xiaomi-sm8450-marble" revision="15" />
-    <remove-project name="crdroidandroid/android" />
-    <project name="android" path="android" remote="SenseiDEVLinux" revision="15.0" />
-     
      
     <!-- Extra -->
     <project name="packages_apps_ViPER4AndroidFX" path="packages/apps/ViPER4AndroidFX" remote="GarnetTrees" revision="v4a" />

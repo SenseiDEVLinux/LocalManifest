@@ -2,17 +2,11 @@
 <manifest>
 
      <!-- Remotes -->
-    <remote name="royweisfeld"
-          fetch="https://github.com/royweisfeld"
-          clone-depth="1" />
      <remote name="SenseiDEVLinux"
           fetch="https://github.com/SenseiDEVLinux"
           clone-depth="1" />
      <remote name="GarnetTrees"
           fetch="https://github.com/GarnetTrees"
-          clone-depth="1" />
-     <remote name="LineageOS"
-          fetch="https://github.com/LineageOS"
           clone-depth="1" />
      <remote name="xiaomi-sm8450-marble"
           fetch="https://github.com/xiaomi-sm8450-marble"
@@ -25,7 +19,7 @@
           clone-depth="1" />
 
     <!-- Sync trees -->
-    <project path="device/xiaomi/garnet" name="android_device_xiaomi_garnet_15" remote="SenseiDEVLinux" revision="15.0" />
+    <project path="device/xiaomi/garnet" name="android_device_xiaomi_garnet_15" remote="SenseiDEVLinux" revision="yaap" />
     <project path="vendor/xiaomi/garnet" name="android_vendor_xiaomi_garnet_15" remote="SenseiDEVLinux" revision="15.0" />
     <project path="device/xiaomi/garnet-prebuilt" name="android_xiaomi_kernel_garnet_15" remote="SenseiDEVLinux" revision="15.0" />
     
@@ -37,12 +31,10 @@
     <project name="android_vendor_qcom_opensource_audioreach-graphservices" path="hardware/qcom-caf/sm8450/audio/graphservices" remote="DqrKnzx" revision="lineage-22.1-caf-sm8450" />
      <remove-project name="LineageOS/android_vendor_qcom_opensource_arpal-lx" />
     <project name="android_vendor_qcom_opensource_arpal-lx" path="hardware/qcom-caf/sm8450/audio/pal" remote="xiaomi-sm8450-marble" revision="15" />
-     <remove-project name="LineageOS/android_hardware_qcom-caf_common" />
-    <project name="android_hardware_qcom-caf_common" path="hardware/qcom-caf/common" remote="SenseiDEVLinux" revision="lineage-22.1" />
+     <remove-project name="yaap/hardware_qcom-caf_common" />
+    <project name="hardware_qcom-caf_common" path="hardware/qcom-caf/common" remote="SenseiDEVLinux" revision="fifteen" />
     <remove-project name="LineageOS/android_hardware_qcom_display" />
     <project name="hardware_qcom-caf_sm8450_display" path="hardware/qcom-caf/sm8450/display" remote="MySelly" revision="lineage-22.1" />
-    <remove-project name="LineageOS/android_hardware_qcom_audio-ar" />
-     <project path="hardware/qcom-caf/sm8450/audio/primary-hal" name="android_hardware_qcom_audio-ar" remote="LineageOS" revision="lineage-22.1-caf-sm8450" />
      
     <!-- Extra -->
     <project name="packages_apps_ViPER4AndroidFX" path="packages/apps/ViPER4AndroidFX" remote="GarnetTrees" revision="v4a" />

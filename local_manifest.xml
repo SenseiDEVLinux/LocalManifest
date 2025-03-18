@@ -20,7 +20,10 @@
      <remote name="MySelly"
           fetch="https://github.com/MySelly"
           clone-depth="1" />
-
+r.       <remote name="crdroidandroid"
+          fetch="https://github.com/crdroidandroid"
+          clone-depth="1" />
+     
     <!-- Sync trees -->
     <project path="device/xiaomi/garnet" name="android_device_xiaomi_garnet_15" remote="SenseiDEVLinux" revision="test15" />
     <project path="vendor/xiaomi/garnet" name="android_vendor_xiaomi_garnet_15" remote="SenseiDEVLinux" revision="15.0" />
@@ -34,6 +37,9 @@
     <project name="android_vendor_qcom_opensource_audioreach-graphservices" path="hardware/qcom-caf/sm8450/audio/graphservices" remote="DqrKnzx" revision="lineage-22.1-caf-sm8450" />
     <remove-project name="LineageOS/android_vendor_qcom_opensource_arpal-lx" />
     <project name="android_vendor_qcom_opensource_arpal-lx" path="hardware/qcom-caf/sm8450/audio/pal" remote="xiaomi-sm8450-marble" revision="15" />
+    <remove-project name="crdroidandroid/android" />
+    <project name="android" path="android" remote="SenseiDEVLinux" revision="15.0" />
+     
      
     <!-- Extra -->
     <project name="packages_apps_ViPER4AndroidFX" path="packages/apps/ViPER4AndroidFX" remote="GarnetTrees" revision="v4a" />

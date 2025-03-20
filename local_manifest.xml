@@ -5,6 +5,9 @@
      <remote name="SenseiDEVLinux"
           fetch="https://github.com/SenseiDEVLinux"
           clone-depth="1" />
+     <remote name="LineageOS"
+          fetch="https://github.com/LineageOS"
+          clone-depth="1" />
      <remote name="GarnetTrees"
           fetch="https://github.com/GarnetTrees"
           clone-depth="1" />

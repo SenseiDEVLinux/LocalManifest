@@ -28,15 +28,15 @@
     
     <!-- HALs -->
     <project name="android_hardware_xiaomi" path="hardware/xiaomi" remote="LineageOS" revision="lineage-22.1" />
-    <remove-project name="LineageOS/android_vendor_qcom_opensource_agm" />
+    <remove-project name="android_vendor_qcom_opensource_agm" />
     <project name="android_vendor_qcom_opensource_agm" path="hardware/qcom-caf/sm8450/audio/agm" remote="xiaomi-sm8450-marble" revision="15" />
-    <remove-project name="LineageOS/android_vendor_qcom_opensource_audioreach-graphservices" />
+    <remove-project name="android_vendor_qcom_opensource_audioreach-graphservices" />
     <project name="android_vendor_qcom_opensource_audioreach-graphservices" path="hardware/qcom-caf/sm8450/audio/graphservices" remote="DqrKnzx" revision="lineage-22.1-caf-sm8450" />
-     <remove-project name="LineageOS/android_vendor_qcom_opensource_arpal-lx" />
+     <remove-project name="android_vendor_qcom_opensource_arpal-lx" />
     <project name="android_vendor_qcom_opensource_arpal-lx" path="hardware/qcom-caf/sm8450/audio/pal" remote="xiaomi-sm8450-marble" revision="15" />
-     <remove-project name="yaap/hardware_qcom-caf_common" />
+     <remove-project name="hardware_qcom-caf_common" />
     <project name="hardware_qcom-caf_common" path="hardware/qcom-caf/common" remote="SenseiDEVLinux" revision="15" />
-    <remove-project name="LineageOS/android_hardware_qcom_display" />
+    <remove-project name="android_hardware_qcom_display" />
     <project name="hardware_qcom-caf_sm8450_display" path="hardware/qcom-caf/sm8450/display" remote="MySelly" revision="lineage-22.1" />
      
     <!-- Extra -->

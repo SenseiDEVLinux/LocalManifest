@@ -35,9 +35,7 @@
     <project name="android_vendor_qcom_opensource_arpal-lx" path="hardware/qcom-caf/sm8450/audio/pal" remote="xiaomi-sm8450-marble" revision="15" />
      <remove-project name="hardware_qcom-caf_common" />
     <project name="hardware_qcom-caf_common" path="hardware/qcom-caf/common" remote="SenseiDEVLinux" revision="15" />
-    <remove-project name="android_hardware_qcom_display" />
-    <project name="hardware_qcom-caf_sm8450_display" path="hardware/qcom-caf/sm8450/display" remote="MySelly" revision="lineage-22.1" />
-     
+  
     <!-- Extra -->
     <project name="packages_apps_ViPER4AndroidFX" path="packages/apps/ViPER4AndroidFX" remote="GarnetTrees" revision="v4a" />
      

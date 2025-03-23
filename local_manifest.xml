@@ -34,7 +34,6 @@
     <linkfile src="os_pickup_audio-ar.mk" dest="hardware/qcom-caf/sm8650/audio/Android.mk" />
     <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8650/Android.bp" />
     <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8650/Android.mk" />
-  </project>
      
     <!-- Sync trees -->
     <project path="device/xiaomi/garnet" name="SenseiDEVLinux/android_device_xiaomi_garnet_15" remote="all" revision="aap" />

@@ -3,7 +3,8 @@
 
      <!-- Remotes -->
      <remote name="all"
-          fetch="https://github.com/" />
+          fetch="https://github.com/"
+          clone-depth="1" />
 
      <!-- add guard for AOSP hardware/qcom dir -->
     <linkfile src="os_pickup_aosp.mk" dest="hardware/qcom/Android.mk" />

@@ -21,8 +21,6 @@
     <project name="xiaomi-sm8450-marble/android_vendor_qcom_opensource_arpal-lx" path="hardware/qcom-caf/sm8450/audio/pal" remote="all" revision="15" />
     <remove-project name="LineageOS/android_hardware_qcom_display" />
     <project name="SenseiDEVLinux/hardware_qcom-caf_sm8450_display" path="hardware/qcom-caf/sm8450/display" remote="all" revision="lineage-22.1" />
-    <remove-project name="LineageOS/android_hardware_qcom_media" />
-    <project name="GarnetDevelopment/android_hardware_qcom_media" path="hardware/qcom-caf/sm8450/media" remote="all" revision="lineage-22.1-caf-sm8450" />
      
     <!-- Extra -->
     <project name="GarnetTrees/packages_apps_ViPER4AndroidFX" path="packages/apps/ViPER4AndroidFX" remote="all" revision="v4a" />

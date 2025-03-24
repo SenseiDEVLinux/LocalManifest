@@ -3,8 +3,7 @@
 
      <!-- Remotes -->
      <remote name="all"
-          fetch="https://github.com/"
-          clone-depth="1" />
+          fetch="https://github.com/" />
      
     <!-- Sync trees -->
     <project path="device/xiaomi/garnet" name="SenseiDEVLinux/android_device_xiaomi_garnet_15" remote="all" revision="77" />

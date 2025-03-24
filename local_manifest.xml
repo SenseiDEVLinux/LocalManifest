@@ -22,7 +22,7 @@
     <remove-project name="LineageOS/android_hardware_qcom_display" />
     <project name="LineageOS/android_hardware_qcom_display" path="hardware/qcom-caf/sm8450/display" remote="all" revision="lineage-22.1-caf-sm8450" />
     <remove-project name="LineageOS/android_hardware_qcom-caf_common" />
-    <project name="android_hardware_qcom-caf_common" path="hardware/qcom-caf/common" remote="SenseiDEVLinux" revision="lineage-22.1" />
+    <project name="SenseiDEVLinux/android_hardware_qcom-caf_common" path="hardware/qcom-caf/common" remote="all" revision="lineage-22.1" />
      
     <!-- Extra -->
     <project name="GarnetTrees/packages_apps_ViPER4AndroidFX" path="packages/apps/ViPER4AndroidFX" remote="all" revision="v4a" />

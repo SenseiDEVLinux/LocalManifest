@@ -30,6 +30,6 @@
     <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="LineageOS" revision="lineage-21" />
 
 <!-- Extra -->
-    <project path="vendor/motorola-dolby" name="vendor_motorola-dolby" remote="userariii" revision="v1.2" />
+    <project path="vendor/motorola-dolby" name="vendor_motorola-dolby" remote="userariii" revision="v182" />
 
 </manifest>

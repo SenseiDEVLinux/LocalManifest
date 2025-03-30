@@ -5,53 +5,20 @@
      <remote name="all"
           fetch="https://github.com/"
           clone-depth="1" />
-
-     <!-- add guard for AOSP hardware/qcom dir -->
-    <linkfile src="os_pickup_aosp.mk" dest="hardware/qcom/Android.mk" />
-    <!-- add guards for CAF repositories -->
-    <linkfile src="os_pickup_sepolicy_vndr.mk" dest="device/qcom/sepolicy_vndr/SEPolicy.mk" />
-    <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/msm8953/Android.bp" />
-    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8953/Android.mk" />
-    <linkfile src="os_pickup.bp" dest="hardware/qcom-caf/msm8996/Android.bp" />
-    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8996/Android.mk" />
-    <linkfile src="os_pickup.bp" dest="hardware/qcom-caf/msm8998/Android.bp" />
-    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8998/Android.mk" />
-    <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sdm660/Android.bp" />
-    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sdm660/Android.mk" />
-    <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sdm845/Android.bp" />
-    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sdm845/Android.mk" />
-    <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8150/Android.bp" />
-    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8150/Android.mk" />
-    <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8250/Android.bp" />
-    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8250/Android.mk" />
-    <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8350/Android.bp" />
-    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8350/Android.mk" />
-    <linkfile src="os_pickup_audio-ar.mk" dest="hardware/qcom-caf/sm8450/audio/Android.mk" />
-    <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8450/Android.bp" />
-    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8450/Android.mk" />
-    <linkfile src="os_pickup_audio-ar.mk" dest="hardware/qcom-caf/sm8550/audio/Android.mk" />
-    <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8550/Android.bp" />
-    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8550/Android.mk" />
-    <linkfile src="os_pickup_audio-ar.mk" dest="hardware/qcom-caf/sm8650/audio/Android.mk" />
-    <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8650/Android.bp" />
-    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8650/Android.mk" />
      
     <!-- Sync trees -->
-    <project path="device/xiaomi/garnet" name="SenseiDEVLinux/android_device_xiaomi_garnet_15" remote="all" revision="aap" />
-    <project path="vendor/xiaomi/garnet" name="SenseiDEVLinux/android_vendor_xiaomi_garnet_15" remote="all" revision="15.0" />
-    <project path="device/xiaomi/garnet-prebuilt" name="SenseiDEVLinux/android_xiaomi_kernel_garnet_15" remote="all" revision="15.0" />
+    <project path="device/xiaomi/garnet" name="GarnetTrees/android_device_xiaomi_garnet_15" remote="all" revision="yaap" />
+    <project path="vendor/xiaomi/garnet" name="crdroidandroid/proprietary_vendor_xiaomi_garnet" remote="all" revision="15.0" />
+    <project path="device/xiaomi/garnet-kernel" name="crdroidandroid/android_xiaomi_kernel_garnet" remote="all" revision="15.0" />
     
     <!-- HALs -->
-    <project name="GarnetDevelopment/android_hardware_xiaomi" path="hardware/xiaomi" remote="all" revision="lineage-22.1" />
+    <project name="SenseiDEVLinux/android_hardware_xiaomi_garnet" path="hardware/xiaomi" remote="all" revision="lineage-22.1" />
     <remove-project name="android_vendor_qcom_opensource_agm" />
     <project name="xiaomi-sm8450-marble/android_vendor_qcom_opensource_agm" path="hardware/qcom-caf/sm8450/audio/agm" remote="all" revision="15" />
+    <remove-project name="android_vendor_qcom_opensource_audioreach-graphservices" />
     <project name="DqrKnzx/android_vendor_qcom_opensource_audioreach-graphservices" path="hardware/qcom-caf/sm8450/audio/graphservices" remote="all" revision="lineage-22.1-caf-sm8450" />
     <remove-project name="android_vendor_qcom_opensource_arpal-lx" />
     <project name="xiaomi-sm8450-marble/android_vendor_qcom_opensource_arpal-lx" path="hardware/qcom-caf/sm8450/audio/pal" remote="all" revision="15" />
-    <remove-project name="android_hardware_qcom_display" />
-    <project name="SenseiDEVLinux/hardware_qcom-caf_sm8450_display" path="hardware/qcom-caf/sm8450/display" remote="all" revision="lineage-22.1" />
-     
-    <!-- Extra -->
-    <project name="GarnetTrees/packages_apps_ViPER4AndroidFX" path="packages/apps/ViPER4AndroidFX" remote="all" revision="v4a" />
+     <project name="MySelly/vendor_xiaomi_garnet-miuicamera" path="vendor/xiaomi/garnet-miuicamera" remote="all" revision="lineage-22.1" />
      
 </manifest>
